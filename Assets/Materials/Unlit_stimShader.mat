@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Unlit_stimShader
+  m_Shader: {fileID: 4800000, guid: fe10c3521ee78684caaf0abba1b3b61b, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _SHALLMAKEHOLE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _RadiusHole: 0.0707
+    - _RadiusInnerCircle: 0.224
+    - _RadiusOutterCircle: 0.5
+    - _ShallMakeHole: 1
+    m_Colors:
+    - _ColorHole: {r: 0, g: 0, b: 0, a: 1}
+    - _ColorInnerCircle: {r: 0.30588236, g: 0.4117647, b: 0.101960786, a: 0.2}
+    - _ColorOutterCircle: {r: 0.09411765, g: 0.23921569, b: 0.38039216, a: 1}
+    - _HolePos: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
